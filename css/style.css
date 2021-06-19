@@ -9,12 +9,10 @@
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
-/* основной цвет #757575  */
-/* вторичный цвет #212121 */
-/* акцент #2196F3 */
 
 body {
   font-family: var(--main-font);
@@ -23,6 +21,7 @@ body {
 }
 
 /* =======Header======= */
+
 a.logo-link {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -33,6 +32,9 @@ a.logo-link {
   color: #212121;
 }
 .logo-accent {
+  color: var(--accent-color);
+}
+.menu .link.current {
   color: var(--accent-color);
 }
 .menu-link {
@@ -48,6 +50,7 @@ a.logo-link {
 .menu-link:focus {
   color: var(--accent-color);
 }
+
 .office-link {
   font-family: var(--main-font);
   font-weight: 500;
@@ -72,9 +75,11 @@ a.logo-link {
 .tel-link:focus {
   color: var(--accent-color);
 }
+
 /* =======End Header======= */
 
 /* =======Hero======= */
+
 .hero-title {
   font-family: var(--main-font);
   font-weight: 900;
@@ -155,7 +160,7 @@ a.logo-link {
 /* =======End Team======= */
 
 /* =======Footer======= */
-.adress-list {
+a .adress-list {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
@@ -184,5 +189,13 @@ a.logo-link {
 .contakt:hover,
 .contakt:focus {
   color: var(--accent-color);
+}
+.adress .link {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 /* =======End Footer======= */
