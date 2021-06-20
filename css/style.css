@@ -95,15 +95,29 @@ a.logo-link {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+.nav-portfolio {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--title-text-color);
+}
+.nav-portfolio:hover,
+.nav-portfolio:focus {
+  color: #ffffff;
+  background: var(--accent-color);
 }
 /* =======End Hero======= */
 
